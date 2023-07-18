@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Value;
 
 public class Students {
 //	using Spring we can get the Connections from the jdbc
-	
 	@Value("${mysql.UserName}")
 	private String userName;
 	
